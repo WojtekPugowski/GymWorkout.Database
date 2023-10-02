@@ -24,6 +24,9 @@
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
     <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+    <IncludeSchemaNameInFileName>False</IncludeSchemaNameInFileName>
+    <CompatibilityMode>160</CompatibilityMode>
+    <GenerateCreateScript>False</GenerateCreateScript>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -64,6 +67,7 @@
   <ItemGroup>
     <Build Include="dbo\Tables\Coach.sql" />
     <Build Include="dbo\Tables\Exercise.sql" />
+    <Build Include="dbo\Tables\Participant.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GymWorkout.Database.publish.xml" />
