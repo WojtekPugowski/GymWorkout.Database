@@ -63,10 +63,10 @@
     <Folder Include="dbo\Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\Coach.sql" />
-    <Build Include="dbo\Tables\Participant.sql" />
-    <Build Include="dbo\Tables\TrainingDay.sql" />
-    <Build Include="dbo\Tables\Exercise.sql" />
+    <Build Include="dbo\Tables\Coaches.sql" />
+    <Build Include="dbo\Tables\Participants.sql" />
+    <Build Include="dbo\Tables\TrainingDays.sql" />
+    <Build Include="dbo\Tables\Exercises.sql" />
     <Build Include="dbo\Tables\ExerciseVariables.sql" />
   </ItemGroup>
   <ItemGroup>
