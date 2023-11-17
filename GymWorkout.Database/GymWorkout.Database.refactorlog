@@ -49,4 +49,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="ExerciseId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="6fd6e634-cf4a-444d-b5ca-944aa6fb4525" ChangeDateTime="10/21/2023 13:05:34">
+    <Property Name="ElementName" Value="[dbo].[ExercisesVariables]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ExerciseVariables]" />
+  </Operation>
 </Operations>

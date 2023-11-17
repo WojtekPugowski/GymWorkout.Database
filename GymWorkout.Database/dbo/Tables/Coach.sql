@@ -1,8 +1,8 @@
 ﻿CREATE TABLE [dbo].[Coach]
 (
-	[CoachId] INT NOT NULL,
+	[Id] INT NOT NULL IDENTITY(1,1),
     [Name] NVARCHAR(50) NOT NULL, 
     [Surname] NVARCHAR(50) NULL, 
-    CONSTRAINT PK_CoachId PRIMARY KEY (CoachId)
+    CONSTRAINT PK_CoachId PRIMARY KEY (Id)
 
 )
